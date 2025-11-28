@@ -6,8 +6,8 @@ The project contains an basic application that only consists of a `Button` and a
 Everytime the `Button` is clicked, the count of previous clicks will be shown via the `Label`.
 The JUnit5 test suite runs the UI and tests whether the controller works as expected.
 
-*Please note:* The source code of `Main` and `Controller`, the corresponding `basic.fxml` file, and the test suite are all
-extensively commented to explain the implementation.
+*Please note:* The source code of `Main` and `Controller`, the corresponding `basic.fxml` file, and the
+corresponding test suite illustrate the implementation.
 The `pom.xml` (see `maven-surefire-plugin` configuration and the test dependencies) and
 `.gitlab-ci.yml` (see `yum` invocation) files contain comments that explain what is necessary
 to run the example in [headless mode](https://en.wikipedia.org/wiki/Headless_software), e.g.,
